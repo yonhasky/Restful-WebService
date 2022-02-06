@@ -12,3 +12,11 @@ spring:
   main:
     allow-bean-definition-overriding: true
     
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+  security:
+    user:
+      name: username
+      password: passw0rd
